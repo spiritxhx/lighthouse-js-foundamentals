@@ -7,7 +7,7 @@ const repeatNumbers = data => {
     }
     ans[i] = tempNumber;
   }
-  return ans;
+  return ans.join(', ');
 }
 
 console.log(repeatNumbers([[1, 10]]));
