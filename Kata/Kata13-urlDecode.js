@@ -9,7 +9,7 @@ const urlDecode = text => {
   }
 
   return obj;
-  
+    
 }
 
 console.log(urlDecode("duck=rubber"));
