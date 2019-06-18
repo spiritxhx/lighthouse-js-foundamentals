@@ -20,15 +20,11 @@ const squareCode = message => {
   for (let i = 0; i < colNum; i++) {
     ansArr[i] = [];
     for (let j = 0; j < rowNum; j++) {
-      // if (initArr[j][i]) {
-      //   ansArr[i].push(initArr[j][i])
-      // }
-
       if (initArr[j][i]) {
         ansArr[i][j] = initArr[j][i];
       }
     }
-    ansArr[i]=ansArr[i].join('');
+    ansArr[i] = ansArr[i].join('');
   }
 
   return ansArr.join(' ');
