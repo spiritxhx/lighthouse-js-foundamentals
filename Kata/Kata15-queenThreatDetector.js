@@ -38,8 +38,8 @@ const queenThreat = board => {
 
 }
 
-let whiteQueen = [0, 5];
-let blackQueen = [5, 0];
+let whiteQueen = [0, 0];
+let blackQueen = [5, 7];
 let generatedBoard = generateBoard(whiteQueen, blackQueen);
 console.log(generatedBoard);
 console.log(queenThreat(generatedBoard));
