@@ -45,7 +45,7 @@ const blocksAway = directions => {
       }
     }
   }
-  return `east: ${position[1]}, north: ${position[0]}`;
+  return ('east: '+position[1]+', north: '+position[0]);
 }
 console.log(blocksAway(["right", 2, "left", 3, "left", 1]));
 console.log(blocksAway(["left", 1, "right", 1, "left", 1, "right", 1, "left", 1, "right", 1]));
